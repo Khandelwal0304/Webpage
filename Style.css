@@ -1,13 +1,16 @@
-
+CSS (in style.css file):
+```
 body {
+	background-color: #F7DC6F; /* Energetic color */
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
-.search-container {
-	width: 600px;
-	margin: 200px auto;
+.header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -17,24 +20,28 @@ body {
 	margin-bottom: 20px;
 }
 
-.search-bar {
-	width: 500px;
-	height: 40px;
-	padding: 10px;
-	font-size: 18px;
-	border: 1px solid #ccc;
+.content {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-button[type="submit"] {
-	background-color: #4CAF50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
+h1, h2 {
+	color: #007bff; /* Attractive text color */
 }
 
-button[type="submit"]:hover {
-	background-color: #3e8e41;
+p {
+	color: #666;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0056b3;
 }
 ```
