@@ -1,0 +1,40 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.search-container {
+	width: 600px;
+	margin: 200px auto;
+	text-align: center;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.search-bar {
+	width: 500px;
+	height: 40px;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+```
