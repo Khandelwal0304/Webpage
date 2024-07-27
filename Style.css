@@ -1,47 +1,47 @@
 CSS (in style.css file):
 ```
-body {
-	background-color: #F7DC6F; /* Energetic color */
-	font-family: Arial, sans-serif;
+/* Additional styles */
+.menu {
+	position: fixed;
+	top: 60px;
+	left: 0;
+	background-color: #333;
+	padding: 20px;
+	display: none;
+}
+
+.menu ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.header {
-	background-color: #333;
+.menu li {
+	margin-bottom: 10px;
+}
+
+.menu a {
 	color: #fff;
-	padding: 20px;
-	text-align: center;
-}
-
-.logo {
-	width: 100px;
-	height: 100px;
-	margin-bottom: 20px;
-}
-
-.content {
-	margin: 20px;
-	padding: 20px;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-	color: #007bff; /* Attractive text color */
-}
-
-p {
-	color: #666;
-}
-
-a {
-	color: #007bff;
 	text-decoration: none;
 }
 
-a:hover {
-	color: #0056b3;
+.menu a:hover {
+	color: #ccc;
+}
+
+.menu-button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+.menu-button:hover {
+	background-color: #444;
 }
 ```
