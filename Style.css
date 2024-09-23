@@ -1,5 +1,3 @@
-CSS (in style.css file):
-```
 /* Additional styles */
 .menu {
 	position: fixed;
@@ -7,7 +5,8 @@ CSS (in style.css file):
 	left: 0;
 	background-color: #333;
 	padding: 20px;
-	display: none;
+	display: none; /* Hidden by default */
+	z-index: 1001; /* Ensure it's above other content */
 }
 
 .menu ul {
@@ -38,10 +37,14 @@ CSS (in style.css file):
 	position: fixed;
 	top: 20px;
 	right: 20px;
-	z-index: 1000;
+	z-index: 1000; /* Above most content */
 }
 
 .menu-button:hover {
 	background-color: #444;
 }
-```
+
+/* Optional: Active class for the menu when it's toggled */
+.menu.active {
+	display: block; /* Show the menu when active */
+}
