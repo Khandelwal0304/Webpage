@@ -1,9 +1,7 @@
-
-/* Additional JavaScript */
 const menuButton = document.querySelector('.menu-button');
 const menu = document.querySelector('.menu');
 
 menuButton.addEventListener('click', () => {
-	menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+    const currentDisplay = window.getComputedStyle(menu).display;
+    menu.style.display = currentDisplay === 'none' ? 'block' : 'none';
 });
-```
