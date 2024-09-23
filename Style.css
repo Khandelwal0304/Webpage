@@ -1,6 +1,4 @@
-CSS (in style.css file):
-```
-/* Additional styles */
+
 .menu {
 	position: fixed;
 	top: 60px;
@@ -44,4 +42,3 @@ CSS (in style.css file):
 .menu-button:hover {
 	background-color: #444;
 }
-```
